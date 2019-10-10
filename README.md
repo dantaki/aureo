@@ -4,6 +4,7 @@ numismatic database cartographer
 -------------------
 
 ## Requirements
+* `python3`
 * `argparse`
 * `folium`
 
