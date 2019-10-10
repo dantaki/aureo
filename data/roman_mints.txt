@@ -1,1 +1,7 @@
-  klj
+Mint	Latitude	Longitude
+Rome	41.892929	12.485366
+Antioch	36.2055	36.171806
+Siscia	45.470483	16.386122
+Serdica	42.7	23.33
+Sirmium	44.983333	19.616667
+Heraclea Perinthus	40.97089	27.95454
