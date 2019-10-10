@@ -14,6 +14,12 @@ pip install https://github.com/dantaki/aureo/releases/download/0.0.1/aureo-0.0.1
 ```
 --------
 
+## Output
+
+aureo will output an html file, you can open this file in a web browser 
+
+----------------
+
 ## Usage
 ```
        d888 8888     888 8888888b.  8888888888 .d88888b.  
