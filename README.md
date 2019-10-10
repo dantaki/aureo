@@ -59,3 +59,48 @@ Notes:
 ```
 -------
 
+## Imput Format
+
+* `-loc` : Mint Location File
+  * tab delimited
+  * Required Columns:
+    * Mint
+    * Latitude 
+    * Longitude
+  * Decimal coordinates
+
+* `-db` : Coin Data Base File
+  * [example](https://github.com/dantaki/aureo/blob/master/coindb.txt)
+  * tab delimited
+  * Required Columns:
+    * MinDate
+    * MaxDate
+    * Denomination
+    * Authority
+    * RIC
+    * Mint
+    * Region
+    * Obverse
+    * ObverseType
+    * Reverse
+    * ReverseType
+    * Mintmark
+    * Weight
+    * Notes
+  * Optional Columns:
+    * ImagePrefix
+    
+-----
+
+## Image Support
+
+* `-img` takes the path to the images
+* Image filename must match the `ImagePrefix` column in the `-db` file
+* Image filename format:
+  * `ImagePrefix.[obv|rev].jpg`
+
+--------
+
+## Author
+[Danny Antaki](https://dantaki.github.io)
+`dantaki at ucsd dot edu`
